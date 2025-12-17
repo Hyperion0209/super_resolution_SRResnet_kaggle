@@ -12,8 +12,8 @@ PyTorch implementation of **SRResNet** for 4× single-image super-resolution, bu
 
 | Low-Resolution (input) | High-Resolution (target / output) |
 |---|---|
-| ![LR 00029](sample_data/00029_lr.jpg) | ![HR 00029](sample_data/00029_hr.jpg) |
-| ![LR 00034](sample_data/00034_lr.jpg) | ![HR 00034](sample_data/00034_hr.jpg) |
+| ![LR 00029](sample_data/00029(1).png) | ![HR 00029](sample_data/00029.png) |
+| ![LR 00034](sample_data/00034(1).png) | ![HR 00034](sample_data/00034.png) |
 
 
 ## Highlights
