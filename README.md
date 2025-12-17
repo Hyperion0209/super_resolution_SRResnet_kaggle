@@ -1,6 +1,6 @@
 # super_resolution_SRResnet_kaggle
 Image Super-Resolution using SRResNet for Gaming Visuals [https://www.kaggle.com/competitions/gnr638/overview]
-
+Please refer to report.pdf for detailed analysis.
 
 # SRResNet Image Super-Resolution (Kaggle)
 
