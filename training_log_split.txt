@@ -1,0 +1,231 @@
+Using device: cuda
+--- Configuration ---
+Train Data Dir: train-kaggle
+Test Data Dir: lr/lr
+Output Dir: checkpoints_and_outputs
+Validation Split Ratio: 0.15
+Random Seed: 42
+Upscale Factor: 4
+Num Residual Blocks: 16
+Epochs: 100
+Batch Size: 8
+Learning Rate: 0.0001
+---------------------
+
+Total valid image pairs found: 4500
+Splitting into 3825 training and 675 validation pairs.
+Training DataLoader ready with 479 batches.
+Validation DataLoader ready with 85 batches.
+
+--- Starting Training ---
+Using device: cuda
+--- Configuration ---
+Train Data Dir: train-kaggle
+Test Data Dir: lr/lr
+Output Dir: checkpoints_and_outputs
+Validation Split Ratio: 0.15
+Random Seed: 42
+Upscale Factor: 4
+Num Residual Blocks: 16
+Epochs: 1
+Batch Size: 16
+Learning Rate: 0.0001
+---------------------
+
+Total valid image pairs found: 4500
+Splitting into 3825 training and 675 validation pairs.
+Training DataLoader ready with 240 batches.
+Validation DataLoader ready with 43 batches.
+
+--- Starting Training ---
+Using device: cuda
+--- Configuration ---
+Train Data Dir: train-kaggle
+Test Data Dir: lr/lr
+Output Dir: checkpoints_and_outputs
+Validation Split Ratio: 0.15
+Random Seed: 42
+Upscale Factor: 4
+Num Residual Blocks: 16
+Epochs: 1
+Batch Size: 8
+Learning Rate: 0.0001
+---------------------
+
+Total valid image pairs found: 4500
+Splitting into 3825 training and 675 validation pairs.
+Training DataLoader ready with 479 batches.
+Validation DataLoader ready with 85 batches.
+
+--- Starting Training ---
+Using device: cuda
+--- Configuration ---
+Train Data Dir: train-kaggle
+Test Data Dir: lr/lr
+Output Dir: checkpoints_and_outputs
+Validation Split Ratio: 0.15
+Random Seed: 42
+Upscale Factor: 4
+Num Residual Blocks: 16
+Epochs: 100
+Batch Size: 8
+Learning Rate: 0.0001
+---------------------
+
+Total valid image pairs found: 4500
+Splitting into 3825 training and 675 validation pairs.
+Training DataLoader ready with 479 batches.
+Validation DataLoader ready with 85 batches.
+
+--- Starting Training ---
+*** Epoch 1: New best model saved with Val PSNR: 22.816 dB ***
+Epoch 1/100 | Time: 829.55s | Train Loss: 0.0644 | Val Loss: 0.0510 | Val PSNR: 22.816 dB
+*** Epoch 2: New best model saved with Val PSNR: 23.595 dB ***
+Epoch 2/100 | Time: 828.11s | Train Loss: 0.0463 | Val Loss: 0.0452 | Val PSNR: 23.595 dB
+*** Epoch 3: New best model saved with Val PSNR: 23.883 dB ***
+Epoch 3/100 | Time: 824.23s | Train Loss: 0.0433 | Val Loss: 0.0439 | Val PSNR: 23.883 dB
+*** Epoch 4: New best model saved with Val PSNR: 24.296 dB ***
+Epoch 4/100 | Time: 824.41s | Train Loss: 0.0414 | Val Loss: 0.0407 | Val PSNR: 24.296 dB
+*** Epoch 5: New best model saved with Val PSNR: 24.567 dB ***
+Epoch 5/100 | Time: 817.36s | Train Loss: 0.0399 | Val Loss: 0.0389 | Val PSNR: 24.567 dB
+*** Epoch 6: New best model saved with Val PSNR: 24.717 dB ***
+Epoch 6/100 | Time: 788.40s | Train Loss: 0.0395 | Val Loss: 0.0380 | Val PSNR: 24.717 dB
+Epoch 7/100 | Time: 822.91s | Train Loss: 0.0390 | Val Loss: 0.0398 | Val PSNR: 24.460 dB
+*** Epoch 8: New best model saved with Val PSNR: 24.910 dB ***
+Epoch 8/100 | Time: 822.98s | Train Loss: 0.0383 | Val Loss: 0.0365 | Val PSNR: 24.910 dB
+Epoch 9/100 | Time: 823.84s | Train Loss: 0.0378 | Val Loss: 0.0395 | Val PSNR: 24.586 dB
+Epoch 10/100 | Time: 824.43s | Train Loss: 0.0374 | Val Loss: 0.0383 | Val PSNR: 24.704 dB
+*** Epoch 11: New best model saved with Val PSNR: 24.975 dB ***
+Epoch 11/100 | Time: 824.39s | Train Loss: 0.0373 | Val Loss: 0.0368 | Val PSNR: 24.975 dB
+*** Epoch 12: New best model saved with Val PSNR: 25.013 dB ***
+Epoch 12/100 | Time: 823.84s | Train Loss: 0.0371 | Val Loss: 0.0361 | Val PSNR: 25.013 dB
+Epoch 13/100 | Time: 823.73s | Train Loss: 0.0368 | Val Loss: 0.0381 | Val PSNR: 24.746 dB
+Epoch 14/100 | Time: 825.58s | Train Loss: 0.0363 | Val Loss: 0.0383 | Val PSNR: 24.751 dB
+*** Epoch 15: New best model saved with Val PSNR: 25.118 dB ***
+Epoch 15/100 | Time: 826.86s | Train Loss: 0.0364 | Val Loss: 0.0354 | Val PSNR: 25.118 dB
+Epoch 16/100 | Time: 827.54s | Train Loss: 0.0365 | Val Loss: 0.0365 | Val PSNR: 24.997 dB
+Epoch 17/100 | Time: 808.52s | Train Loss: 0.0359 | Val Loss: 0.0367 | Val PSNR: 24.946 dB
+Epoch 18/100 | Time: 500.78s | Train Loss: 0.0361 | Val Loss: 0.0369 | Val PSNR: 25.001 dB
+*** Epoch 19: New best model saved with Val PSNR: 25.168 dB ***
+Epoch 19/100 | Time: 415.77s | Train Loss: 0.0357 | Val Loss: 0.0351 | Val PSNR: 25.168 dB
+Epoch 20/100 | Time: 415.77s | Train Loss: 0.0355 | Val Loss: 0.0353 | Val PSNR: 25.107 dB
+Epoch 21/100 | Time: 416.00s | Train Loss: 0.0355 | Val Loss: 0.0354 | Val PSNR: 25.133 dB
+Epoch 22/100 | Time: 415.88s | Train Loss: 0.0354 | Val Loss: 0.0370 | Val PSNR: 24.920 dB
+Epoch 23/100 | Time: 415.95s | Train Loss: 0.0354 | Val Loss: 0.0354 | Val PSNR: 25.134 dB
+Epoch 24/100 | Time: 415.86s | Train Loss: 0.0351 | Val Loss: 0.0372 | Val PSNR: 24.904 dB
+*** Epoch 25: New best model saved with Val PSNR: 25.267 dB ***
+Epoch 25/100 | Time: 415.89s | Train Loss: 0.0356 | Val Loss: 0.0345 | Val PSNR: 25.267 dB
+Epoch 26/100 | Time: 418.29s | Train Loss: 0.0348 | Val Loss: 0.0371 | Val PSNR: 24.993 dB
+Epoch 27/100 | Time: 419.70s | Train Loss: 0.0348 | Val Loss: 0.0358 | Val PSNR: 25.122 dB
+Epoch 28/100 | Time: 417.93s | Train Loss: 0.0346 | Val Loss: 0.0395 | Val PSNR: 24.118 dB
+Epoch 29/100 | Time: 419.67s | Train Loss: 0.0353 | Val Loss: 0.0352 | Val PSNR: 25.161 dB
+Epoch 30/100 | Time: 418.06s | Train Loss: 0.0347 | Val Loss: 0.0350 | Val PSNR: 25.001 dB
+Epoch 31/100 | Time: 419.03s | Train Loss: 0.0348 | Val Loss: 0.0348 | Val PSNR: 25.246 dB
+*** Epoch 32: New best model saved with Val PSNR: 25.316 dB ***
+Epoch 32/100 | Time: 423.09s | Train Loss: 0.0349 | Val Loss: 0.0341 | Val PSNR: 25.316 dB
+*** Epoch 33: New best model saved with Val PSNR: 25.339 dB ***
+Epoch 33/100 | Time: 423.29s | Train Loss: 0.0342 | Val Loss: 0.0345 | Val PSNR: 25.339 dB
+*** Epoch 34: New best model saved with Val PSNR: 25.392 dB ***
+Epoch 34/100 | Time: 414.69s | Train Loss: 0.0341 | Val Loss: 0.0339 | Val PSNR: 25.392 dB
+Epoch 35/100 | Time: 413.70s | Train Loss: 0.0341 | Val Loss: 0.0339 | Val PSNR: 25.348 dB
+Epoch 36/100 | Time: 414.69s | Train Loss: 0.0341 | Val Loss: 0.0351 | Val PSNR: 25.212 dB
+*** Epoch 37: New best model saved with Val PSNR: 25.407 dB ***
+Epoch 37/100 | Time: 414.74s | Train Loss: 0.0342 | Val Loss: 0.0337 | Val PSNR: 25.407 dB
+*** Epoch 38: New best model saved with Val PSNR: 25.469 dB ***
+Epoch 38/100 | Time: 414.93s | Train Loss: 0.0339 | Val Loss: 0.0333 | Val PSNR: 25.469 dB
+Epoch 39/100 | Time: 414.95s | Train Loss: 0.0338 | Val Loss: 0.0342 | Val PSNR: 25.356 dB
+*** Epoch 40: New best model saved with Val PSNR: 25.500 dB ***
+Epoch 40/100 | Time: 414.97s | Train Loss: 0.0337 | Val Loss: 0.0335 | Val PSNR: 25.500 dB
+Epoch 41/100 | Time: 415.40s | Train Loss: 0.0335 | Val Loss: 0.0353 | Val PSNR: 24.920 dB
+Epoch 42/100 | Time: 417.95s | Train Loss: 0.0349 | Val Loss: 0.0340 | Val PSNR: 25.364 dB
+Epoch 43/100 | Time: 416.34s | Train Loss: 0.0338 | Val Loss: 0.0339 | Val PSNR: 25.379 dB
+Epoch 44/100 | Time: 415.30s | Train Loss: 0.0337 | Val Loss: 0.0337 | Val PSNR: 25.413 dB
+*** Epoch 45: New best model saved with Val PSNR: 25.519 dB ***
+Epoch 45/100 | Time: 414.20s | Train Loss: 0.0336 | Val Loss: 0.0332 | Val PSNR: 25.519 dB
+Epoch 46/100 | Time: 415.03s | Train Loss: 0.0335 | Val Loss: 0.0343 | Val PSNR: 25.362 dB
+*** Epoch 47: New best model saved with Val PSNR: 25.549 dB ***
+Epoch 47/100 | Time: 414.73s | Train Loss: 0.0332 | Val Loss: 0.0334 | Val PSNR: 25.549 dB
+*** Epoch 48: New best model saved with Val PSNR: 25.574 dB ***
+Epoch 48/100 | Time: 414.36s | Train Loss: 0.0333 | Val Loss: 0.0329 | Val PSNR: 25.574 dB
+Epoch 49/100 | Time: 414.51s | Train Loss: 0.0331 | Val Loss: 0.0340 | Val PSNR: 25.430 dB
+Epoch 50/100 | Time: 414.70s | Train Loss: 0.0330 | Val Loss: 0.0333 | Val PSNR: 25.534 dB
+Epoch 51/100 | Time: 414.79s | Train Loss: 0.0332 | Val Loss: 0.0334 | Val PSNR: 25.551 dB
+*** Epoch 52: New best model saved with Val PSNR: 25.624 dB ***
+Epoch 52/100 | Time: 414.61s | Train Loss: 0.0332 | Val Loss: 0.0327 | Val PSNR: 25.624 dB
+Epoch 53/100 | Time: 414.80s | Train Loss: 0.0328 | Val Loss: 0.0350 | Val PSNR: 25.318 dB
+Epoch 54/100 | Time: 414.44s | Train Loss: 0.0329 | Val Loss: 0.0326 | Val PSNR: 25.567 dB
+Epoch 55/100 | Time: 414.59s | Train Loss: 0.0327 | Val Loss: 0.0344 | Val PSNR: 25.462 dB
+Epoch 56/100 | Time: 414.70s | Train Loss: 0.0325 | Val Loss: 0.0331 | Val PSNR: 25.578 dB
+*** Epoch 57: New best model saved with Val PSNR: 25.670 dB ***
+Epoch 57/100 | Time: 414.44s | Train Loss: 0.0327 | Val Loss: 0.0324 | Val PSNR: 25.670 dB
+*** Epoch 58: New best model saved with Val PSNR: 25.677 dB ***
+Epoch 58/100 | Time: 414.89s | Train Loss: 0.0324 | Val Loss: 0.0324 | Val PSNR: 25.677 dB
+Epoch 59/100 | Time: 414.38s | Train Loss: 0.0324 | Val Loss: 0.0326 | Val PSNR: 25.641 dB
+*** Epoch 60: New best model saved with Val PSNR: 25.717 dB ***
+Epoch 60/100 | Time: 414.77s | Train Loss: 0.0324 | Val Loss: 0.0321 | Val PSNR: 25.717 dB
+Epoch 61/100 | Time: 414.69s | Train Loss: 0.0324 | Val Loss: 0.0325 | Val PSNR: 25.694 dB
+Epoch 62/100 | Time: 414.60s | Train Loss: 0.0324 | Val Loss: 0.0364 | Val PSNR: 24.970 dB
+Epoch 63/100 | Time: 414.16s | Train Loss: 0.0356 | Val Loss: 0.0339 | Val PSNR: 25.416 dB
+Epoch 64/100 | Time: 414.33s | Train Loss: 0.0331 | Val Loss: 0.0324 | Val PSNR: 25.657 dB
+Epoch 65/100 | Time: 414.60s | Train Loss: 0.0324 | Val Loss: 0.0320 | Val PSNR: 25.711 dB
+Epoch 66/100 | Time: 414.19s | Train Loss: 0.0321 | Val Loss: 0.0329 | Val PSNR: 25.636 dB
+*** Epoch 67: New best model saved with Val PSNR: 25.731 dB ***
+Epoch 67/100 | Time: 414.61s | Train Loss: 0.0321 | Val Loss: 0.0320 | Val PSNR: 25.731 dB
+Epoch 68/100 | Time: 414.30s | Train Loss: 0.0323 | Val Loss: 0.0352 | Val PSNR: 25.320 dB
+Epoch 69/100 | Time: 413.49s | Train Loss: 0.0321 | Val Loss: 0.0326 | Val PSNR: 25.660 dB
+*** Epoch 70: New best model saved with Val PSNR: 25.784 dB ***
+Epoch 70/100 | Time: 413.39s | Train Loss: 0.0319 | Val Loss: 0.0320 | Val PSNR: 25.784 dB
+*** Epoch 71: New best model saved with Val PSNR: 25.785 dB ***
+Epoch 71/100 | Time: 413.96s | Train Loss: 0.0319 | Val Loss: 0.0319 | Val PSNR: 25.785 dB
+*** Epoch 72: New best model saved with Val PSNR: 25.816 dB ***
+Epoch 72/100 | Time: 414.16s | Train Loss: 0.0318 | Val Loss: 0.0318 | Val PSNR: 25.816 dB
+Epoch 73/100 | Time: 414.12s | Train Loss: 0.0319 | Val Loss: 0.0320 | Val PSNR: 25.735 dB
+Epoch 74/100 | Time: 414.84s | Train Loss: 0.0319 | Val Loss: 0.0324 | Val PSNR: 25.691 dB
+Epoch 75/100 | Time: 414.29s | Train Loss: 0.0317 | Val Loss: 0.0384 | Val PSNR: 23.458 dB
+Epoch 76/100 | Time: 414.55s | Train Loss: 0.0333 | Val Loss: 0.0323 | Val PSNR: 25.661 dB
+Epoch 77/100 | Time: 414.51s | Train Loss: 0.0318 | Val Loss: 0.0318 | Val PSNR: 25.769 dB
+*** Epoch 78: New best model saved with Val PSNR: 25.821 dB ***
+Epoch 78/100 | Time: 414.38s | Train Loss: 0.0318 | Val Loss: 0.0315 | Val PSNR: 25.821 dB
+Epoch 79/100 | Time: 414.16s | Train Loss: 0.0316 | Val Loss: 0.0325 | Val PSNR: 25.671 dB
+Epoch 80/100 | Time: 414.40s | Train Loss: 0.0318 | Val Loss: 0.0319 | Val PSNR: 25.815 dB
+Epoch 81/100 | Time: 414.52s | Train Loss: 0.0315 | Val Loss: 0.0315 | Val PSNR: 25.816 dB
+Epoch 82/100 | Time: 415.11s | Train Loss: 0.0316 | Val Loss: 0.0324 | Val PSNR: 25.686 dB
+Epoch 83/100 | Time: 414.48s | Train Loss: 0.0315 | Val Loss: 0.0318 | Val PSNR: 25.812 dB
+*** Epoch 84: New best model saved with Val PSNR: 25.885 dB ***
+Epoch 84/100 | Time: 414.28s | Train Loss: 0.0315 | Val Loss: 0.0312 | Val PSNR: 25.885 dB
+Epoch 85/100 | Time: 414.36s | Train Loss: 0.0314 | Val Loss: 0.0312 | Val PSNR: 25.863 dB
+Epoch 86/100 | Time: 414.69s | Train Loss: 0.0313 | Val Loss: 0.0314 | Val PSNR: 25.860 dB
+Epoch 87/100 | Time: 413.97s | Train Loss: 0.0314 | Val Loss: 0.0343 | Val PSNR: 25.482 dB
+Epoch 88/100 | Time: 414.49s | Train Loss: 0.0313 | Val Loss: 0.0314 | Val PSNR: 25.876 dB
+Epoch 89/100 | Time: 414.62s | Train Loss: 0.0314 | Val Loss: 0.0315 | Val PSNR: 25.843 dB
+*** Epoch 90: New best model saved with Val PSNR: 25.928 dB ***
+Epoch 90/100 | Time: 414.60s | Train Loss: 0.0314 | Val Loss: 0.0309 | Val PSNR: 25.928 dB
+Epoch 91/100 | Time: 413.85s | Train Loss: 0.0310 | Val Loss: 0.0314 | Val PSNR: 25.892 dB
+Epoch 92/100 | Time: 414.43s | Train Loss: 0.0311 | Val Loss: 0.0318 | Val PSNR: 25.829 dB
+Epoch 93/100 | Time: 427.92s | Train Loss: 0.0310 | Val Loss: 0.0315 | Val PSNR: 25.852 dB
+Epoch 94/100 | Time: 413.20s | Train Loss: 0.0310 | Val Loss: 0.0311 | Val PSNR: 25.918 dB
+*** Epoch 95: New best model saved with Val PSNR: 25.968 dB ***
+Epoch 95/100 | Time: 571.99s | Train Loss: 0.0309 | Val Loss: 0.0313 | Val PSNR: 25.968 dB
+Epoch 96/100 | Time: 652.40s | Train Loss: 0.0310 | Val Loss: 0.0314 | Val PSNR: 25.888 dB
+Epoch 97/100 | Time: 547.28s | Train Loss: 0.0310 | Val Loss: 0.0324 | Val PSNR: 25.788 dB
+Epoch 98/100 | Time: 680.01s | Train Loss: 0.0309 | Val Loss: 0.0316 | Val PSNR: 25.845 dB
+*** Epoch 99: New best model saved with Val PSNR: 25.970 dB ***
+Epoch 99/100 | Time: 417.83s | Train Loss: 0.0309 | Val Loss: 0.0309 | Val PSNR: 25.970 dB
+Epoch 100/100 | Time: 416.70s | Train Loss: 0.0309 | Val Loss: 0.0308 | Val PSNR: 25.951 dB
+
+--- Training Finished ---
+Best Validation PSNR achieved: 25.970 dB
+Best model saved to: checkpoints_and_outputs/best_srresnet_split.pth
+
+Training plots saved to: checkpoints_and_outputs/training_plots.png
+
+Loading best model from checkpoints_and_outputs/best_srresnet_split.pth for test predictions.
+
+--- Generating Test Set Predictions ---
+Found 500 test images.
+Test predictions saved to: checkpoints_and_outputs/test_predictions
+
+--- Creating Submission File ---
+Submission file saved to: checkpoints_and_outputs/submission.csv
+
+--- Script Finished ---
